@@ -60,7 +60,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: #4682b4;
+    background-color: rgba(44, 125, 212, 1);
 }
 
 header h1 {
@@ -86,7 +86,7 @@ footer {
     height: 3vh;
     color: #ffffff;
     align-items: center;
-    background-color: #4682b4;
+    background-color: rgba(44, 125, 212, 1);
 }
 
 
@@ -102,7 +102,7 @@ footer {
 
 .home_menu {
     border-top: 1vh solid;
-    border-color: #4682b4;
+    border-color: rgba(44, 125, 212, 1);
     overflow: hidden;
     height: 47vh;
     text-align: center;
@@ -128,7 +128,7 @@ footer {
 
 .home_profile {
     border-right: 0.5vw solid;
-    border-color: #4682b4;
+    border-color: rgba(44, 125, 212, 1);
     background-image: url(images/background_profile.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -189,6 +189,7 @@ footer {
 
 .games_menu button {
     font-size: 210%;
+    background-color: rgba(44, 125, 212, 1);
     margin-top: 2%;
     padding: 0 100px;
     width: 20%;
