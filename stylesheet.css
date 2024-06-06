@@ -6,15 +6,16 @@
 
 html,
 body {
+    height: 100vh;
     color: #eee;
     background-color: #111;
-    overflow: hidden;
     text-align: center;
     margin: 0;
     padding: 0;
     font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 }
 
+/* Headings */
 h1 {
     font-size: 518%;
     line-height: 10vh;
@@ -28,6 +29,7 @@ h3 {
     font-size: 200%;
 }
 
+/* Buttons */
 button {
     transition: 0.5s;
     color: #eee;
@@ -42,7 +44,9 @@ button:active {
     color: #ff0;
 }
 
+/* Links */
 a {
+    font-size: 100%;
     transition: 0.5s;
     text-decoration: none;
     color: #eee;
@@ -56,6 +60,7 @@ a:active {
     color: #ee0;
 }
 
+/* Header */
 header {
     padding: 0 4vw 0 2vw;
     width: 100%;
@@ -73,8 +78,14 @@ header h1 {
 header a {
     background: transparent;
     border: none;
+    font-size: 140%;
 }
 
+header a:hover {
+    font-size: 150%;
+}
+
+/* Navigation */
 nav {
     margin: 0 0 0 auto;
 }
@@ -85,15 +96,16 @@ nav ul {
     gap: 4vw;
 }
 
+/* Footer */
 footer {
-    height: 3vh;
+    height: 2.6vh;
     align-items: center;
     background-color: #0b0;
 }
 
-
+/* Home Section */
 .home {
-    height: 38vh;
+    height: 40vh;
     text-align: center;
 }
 
@@ -101,9 +113,9 @@ footer {
     font-size: 150%;
 }
 
+/* Home Menu */
 .home_menu {
-    border-top: 0.5vh solid;
-    border-color: #0e0;
+    border-top: 0.5vh solid #0e0;
     overflow: hidden;
     height: 45vh;
     text-align: center;
@@ -117,14 +129,20 @@ footer {
 }
 
 .home_menu button {
+    font-size: 120%;
+
     background: rgba(0, 255, 0, 0.3);
     padding: 1% 4%;
     border: 0.12vw solid rgba(255, 255, 255, 0.5);
 }
 
+
+.home_menu button:hover {
+    font-size: 150%;
+}
+
 .home_profile {
-    border-right: 0.3vw solid;
-    border-color: #0e0;
+    border-right: 0.3vw solid #0e0;
     background-image: url(images/background_profile.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -143,7 +161,7 @@ footer {
     z-index: 2;
 }
 
-
+/* Profile Menu */
 .profile_menu {
     width: 100vw;
     height: 67vh;
@@ -177,16 +195,13 @@ footer {
     line-height: 140%;
 }
 
-.profile_name a:hover {
-    color: #ae0;
-}
-
-
+/* Profile Links */
+.profile_name a:hover,
 .profile_text a:hover {
     color: #ae0;
 }
 
-
+/* Games Menu */
 .games_menu {
     height: 67vh;
     text-align: center;
@@ -203,6 +218,13 @@ footer {
     border: 0.2vw solid #aea;
 }
 
+.games_menu button:hover {
+    font-size: 300%;
+    width: 24%;
+    height: 12%;
+}
+
+/* Game Block */
 .game_block {
     display: flex;
 }
